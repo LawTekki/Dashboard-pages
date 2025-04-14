@@ -61,18 +61,18 @@ export const Header = () => {
     <header className="sticky top-0 z-50 border-b border-[#E6E6E6] bg-white w-full">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-3 flex flex-wrap md:flex-nowrap items-center justify-between gap-4">
         
-        {/* Logo and Welcome Text */}
-        <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
-          <div
-            className="flex items-center cursor-pointer transition-transform duration-300 hover:scale-105"
-            onClick={() => window.location.href = "/"}
-          >
-            <img src="/image 1.png" alt="Logo" className="h-[48px] w-auto object-contain" />
-          </div>
-          <div className="text-[#808080] text-sm sm:text-base font-medium tracking-[-0.4px]">
-            Welcome, <span className="text-[#1A011E]">Wisdom</span>
-          </div>
-        </div>
+       <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
+  <div
+    className="flex items-center cursor-pointer transition-transform duration-300 hover:scale-105"
+    onClick={() => window.location.href = "https://www.lawtrolley.co.uk"}
+  >
+    <img src="/image 1.png" alt="Logo" className="h-[48px] w-auto object-contain" />
+  </div>
+  <div className="text-[#808080] text-sm sm:text-base font-medium tracking-[-0.4px]">
+    Welcome, <span className="text-[#1A011E]">Wisdom</span>
+  </div>
+</div>
+
 
         {/* Right-side Tools */}
         <div className="flex flex-wrap items-center justify-between md:justify-end gap-4 md:gap-6 w-full md:w-auto">
